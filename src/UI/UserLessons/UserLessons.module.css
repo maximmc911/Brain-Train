@@ -1,0 +1,45 @@
+.lessons{
+    border-left-color: var(--btn_color);
+    border-left-width: 2px;
+    border-left-style: outset;
+    padding: 15px;
+}
+.lessons_active , .lessons_finish, .book{
+    padding: 15px;
+    
+}
+
+.write{
+    text-align: start;
+    font-size: 20px;
+    font-family: cursive;
+    border-bottom-color: var(--btn_color);
+    border-bottom-width: 2px;
+    border-bottom-style: outset;
+    padding: 15px;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 12px;
+    font-family: cursive;
+}
+.btn{
+    padding: 10px;
+    text-align: end;
+}
+
+
+
+@media( max-width: 781px){
+    .lessons{
+    
+    border-top-color: var(--btn_color);
+    border-top-width: 2px;
+    border-top-style: outset;
+    padding: 15px;
+    border-left: none;
+    }
+
+}

@@ -1,0 +1,48 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    margin-top: 35px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    width: 450px;
+    padding: 15px;
+    border-radius: var(--radius);
+    border: 1px solid black;
+
+}
+ .name{
+    text-align: center;
+    padding: 15px;
+}
+.name h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px ;
+}
+.btn{
+    padding: 10px;
+}
+/*
+
+.main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.btn{
+   display: flex;
+   flex-direction: column;
+   gap: 10px; 
+}
+.info p{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+} */

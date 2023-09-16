@@ -1,0 +1,28 @@
+/*/UI/UserLessons/SearchStidy/ImportCarhs.jsx*/
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    width: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    background-color: var(--bgCard_color);
+    background-image: var(--card_color);
+    box-shadow: var(--shadow_card);
+}
+.name h1{
+    padding: 15px;
+}
+
+
+.logo{
+    padding: 10px;
+}

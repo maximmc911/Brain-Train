@@ -1,0 +1,28 @@
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: var(--btn_color);
+    border-radius: var(--radius);
+    border: none;
+    transition: 1s;
+    margin-top: 50px;
+}
+.btn_form :hover{
+    transition: 1s;
+    transform: scale(1.05 , 1.05);
+}
+.BtnSmall{
+    padding: 10px;
+    min-width: 100px;
+    min-height: 20px;
+    background-color: var(--btn_color);
+    border-radius: var(--radius);
+    border: none;
+    transition: 1s;
+    font-size: 15px;
+    color: white;
+}
+.BtnSmall_form :hover{
+    transition: 1s;
+    transform: scale(1.05 , 1.05);
+}

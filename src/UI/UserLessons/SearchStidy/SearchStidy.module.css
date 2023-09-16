@@ -1,0 +1,80 @@
+.placeHolder{
+    padding: 15px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border-bottom-color: var(--btn_color);
+    border-bottom-width: 2px;
+    border-bottom-style: outset;
+}
+
+.LittleForm{
+    display: none;
+}
+.buy{
+    padding: 55px;
+}
+@media(max-width: 650px){
+    .LittleForm{
+        display: flex;
+    }
+    .form{
+        display: none;
+    }
+}
+@media(max-width: 500px){
+    .placeHolder{
+      
+        gap: 15px;
+    }
+}
+/*/UI/UserLessons/SearchStidy/ImportCarhs.jsx*/
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1400px;
+    width: 100%;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    font-weight: 400;
+    background-color: var(--bgCard_color);
+    background-image: var(--card_color);
+    box-shadow: var(--shadow_card);
+}
+.text{
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.name h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+/*     font-family: cursive; */
+}
+.logo{
+    padding: 10px;
+}
+@media(max-width: 1000px){
+    .card{
+        width: 200px;
+ }
+ 
+    .name h1{ 
+        font-size: 15px;   
+    }
+    .text{
+        flex-direction: column-reverse;
+    }
+}

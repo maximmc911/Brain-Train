@@ -1,0 +1,66 @@
+.header h1{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+/*     font-family: cursive; */
+
+    font-size: 30px;
+}
+.header h2{  
+    padding: 20px;
+    text-align: center;
+/*     font-family: cursive;
+    font-style: italic; */
+    font-size: 25px;
+    font-weight: 400;
+}
+.header h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.card{
+    text-align: center;
+    font-weight: 400;
+max-width: 450px;
+width: 100%;
+border-radius: var(--radius);
+border: none;
+background-color: var(--bgCard_color);
+background-image: var(--card_color);
+box-shadow: var(--shadow_card);
+}
+.card h1{
+
+/*     font-family:fantasy; */
+font-weight: 800;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.card h3{
+   /*  font-family:cursive; */
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+@media(max-width: 980px){
+    .card{
+    max-width: 250px;
+    width: 100%;
+    }
+    .card h3{
+        font-size: 15px;
+    }
+    .card h1{
+        font-size: 20px;
+    }
+}

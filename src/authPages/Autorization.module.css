@@ -1,0 +1,38 @@
+.form_link {
+    margin-left: 6px;
+    border-bottom: 1px solid var(--btn_color);
+    color: var(--btn_color)
+  }
+  .form_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .auth {
+    max-width: 40%;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+form{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.autor{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center ;
+}
+@media (max-width: 1000px){
+  .auth {
+    max-width: 50%;
+  }
+}
+@media (max-width: 700px){
+  .auth {
+    max-width: 90%;
+  }
+}

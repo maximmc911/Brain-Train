@@ -1,0 +1,40 @@
+/*app\src\UI\Admin\Info.jsx*/
+.bank{
+    padding: 15px;
+}
+.money{
+    padding: 15px;
+}
+.bank h2, .money h2{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+}
+.bank h3, .money h3{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*src\UI\Admin\Rewrite.jsx*/
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.rewrite{
+    width: 500px;
+    align-items: center;
+}
+.rewrite h3{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}

@@ -1,0 +1,47 @@
+.pageUser{
+    padding-top: 10px;
+    padding: 10px;
+    gap: 50px;
+     
+}
+
+/*src\Pages\StidyPages\StidySearch.jsx*/
+.placeHolder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* \src\Pages\TeacherPages\MakeLessons.jsx */
+.header h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+/*src\Pages\PageNotFound.jsx*/
+.bad{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bad h1 {
+    text-align: center;
+    font-size: 48px;
+
+}
+.bad h3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+/*src\Pages\AdminPages\AdminPage.jsx*/
+.AdminHeader h1{
+    padding: 25px;
+    font-size: 25px;
+}
+.AdminHeader{
+    padding: 25px;
+}

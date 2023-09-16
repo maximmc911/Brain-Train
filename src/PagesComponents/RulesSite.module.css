@@ -1,0 +1,43 @@
+.mySwiper {
+    width: 90%;
+  }
+  .list{
+    width: 100%;
+    text-align: left;
+}
+.list p {  
+    font-size: 20px; 
+  }
+
+  .ulList{
+    padding: 25px;
+    width: 90%;
+    height: 95%;
+  }
+  .swiperSlide {
+    max-height: 900px;
+   
+    text-align: center;
+    background:var( --bg_hf);
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteiner, .telephone{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--bg_hf);
+    border-radius: var(--radius);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+ 
+  
+  @media(max-width: 427px){
+    .list p{
+        font-size: 12px;
+    }
+  }

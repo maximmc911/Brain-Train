@@ -1,0 +1,40 @@
+.avatar{
+    display: flex;
+    gap: 50px;
+}
+.users{
+    padding-top: 100px;
+    margin-left: 5%;
+    padding: 10px;
+}
+.rewrite{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+.rewrite p{
+     font-size: 15px;
+     font-weight: 900;
+}
+.name, .email, .balans, .teacher{
+    padding: 10px;
+}
+.email h3{
+    padding-top: 10px;
+}
+.balans{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.module{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

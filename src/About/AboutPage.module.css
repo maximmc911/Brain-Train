@@ -1,0 +1,100 @@
+.quote {
+/*     padding-left: 50px; */
+    border-left: 4px solid #e2e2e2;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    max-width: 350px;
+    
+  }
+  .quote p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 15px;
+
+    color: #333333;
+    font-variant: small-caps;
+    font-stretch: condensed;
+/*     font-family: cursive; */
+  }
+  .quote cite {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #221f1f;
+    text-decoration:overline;
+  }
+  .say{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .logo h1{
+    padding: 25px;
+    text-align: center; 
+    font-weight: 700; 
+/*     font-family: cursive; */
+  }
+  .text h2{
+    font-size: 24px;
+/*     font-style: italic; */
+    text-align: center;
+    padding: 15px;
+    font-weight: 400; 
+}
+  .text h3{
+    padding: 15px;
+    font-size: 20px;
+ /*    font-style: italic; */
+    text-align: center;
+    font-weight: 400; 
+}
+.about, .end p{
+    font-size: 24px;
+/*     font-style: italic; */
+    text-align: center;
+    padding: 25px;
+/*     font-family: cursive; */
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+/*     font-style: italic; */
+    font-weight: 600;
+    border-radius: var(--radius);
+    border: none;
+    background-color: var(--bgCard_color);
+    background-image: var(--card_color);
+    box-shadow: var(--shadow_card);
+}
+.text{
+    text-align: center;
+    font-family:monospace;
+}
+.name_card{
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+
+}
+  @media(max-width: 800px ){
+    .say{
+        gap: 50px;
+    }
+    .quote p{
+        font-size: 16px;
+    }
+  }
